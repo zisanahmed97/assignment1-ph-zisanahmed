@@ -110,3 +110,65 @@ color: #FFFFFF;
      padding: 16.5px 16px;
 }
 
+#notes .notes-heading{
+    max-width: 1360px;
+    /* border: 1px solid red; */
+     text-align: center;
+    margin:0 auto;
+    padding-top: 50px;
+}
+
+.notes-heading h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.notes-heading p{
+    color:#627382;
+    font-size: 16px;
+    margin-bottom: 44px;
+}
+
+#notes .notes-card{
+      max-width: 1360px;
+     display: flex;
+     margin: 0 auto;
+     gap: 24px;
+    justify-content: space-around;
+     align-items: stretch;
+    
+}
+
+.notes-card .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    text-align: center;
+    padding: 69.5px 24px;
+    min-height: 300px;
+    box-shadow: 0 0 8px  #00000042;
+    
+}
+
+
+.notes-card .card img{
+    background-color:#F95555;
+    border-radius: 50%;
+    padding: 15.5px;
+    margin-bottom: 16px;
+      
+
+}
+
+.notes-card .card h5{
+    color:#001931;
+    font-size: 24px;
+    font-weight: 500px;
+    margin-bottom: 16px;
+}
+ .notes-card .card p{
+    color: #627382;
+    font-size: 16px;
+ }
